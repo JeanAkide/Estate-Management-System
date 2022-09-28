@@ -1,0 +1,76 @@
+<!-- <p>Name: {{retrievedEmployee.name}}</p> -->
+
+
+<!-- <router-outlet></router-outlet> -->
+
+
+
+
+
+<div>
+<button nz-icon nzType="double-left" nzTheme="outline" (click)="goBack()"></button>
+</div>
+
+<br>
+
+
+<div id="C" container-fluid>
+<div id="A" class="card">
+    <div class="card-header">Employee Details</div>
+    <div class="card-body">
+        <table *ngIf="retrievedEmployee != null">
+            <tr>
+                <td>
+                    <span><small>Name:</small></span>
+                </td> &nbsp;
+                <td>{{retrievedEmployee.name}}</td>
+            </tr>
+            <tr>
+                <td>
+                    <span><small>Phone:</small></span>
+                </td> &nbsp;
+                <td>{{retrievedEmployee.phone}}</td>
+            </tr><tr>
+                <td>
+                    <span><small>Department:</small></span>
+                </td> &nbsp;
+                <td>{{retrievedEmployee.department}}</td>
+            </tr><tr>
+                <td>
+                    <span><small>Designation:</small></span>
+                </td> &nbsp;
+                <td>{{retrievedEmployee.designation}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<div id="B" class="card">
+
+  <div class="card-header">EmployeeInformation</div>
+     <div class="card-body">
+          
+     <nz-tabset>
+        
+        <nz-tab nzTitle="Activities">Activities</nz-tab>
+        <nz-tab nzTitle="Projects">Project</nz-tab>
+      
+    </nz-tabset>
+     
+     
+     
+         </div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+

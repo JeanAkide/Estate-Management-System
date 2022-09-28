@@ -1,0 +1,95 @@
+{
+  "empDetails": [
+    {
+      "id": 7,
+      "name": "Jean Akide",
+      "email": "jean.akide@gmail.com",
+      "phone": 742142929,
+      "designation": "dev",
+      "department": "rnd"
+    },
+    {
+      "id": 8,
+      "name": "Princess Lady",
+      "email": "princess.lady@gmail.com",
+      "phone": 713621547,
+      "designation": "secretary",
+      "department": "marketing"
+    },
+    {
+      "id": 9,
+      "name": "Emily Fields",
+      "email": "emily.fields@gmail.com",
+      "phone": 798566789,
+      "designation": "customer support",
+      "department": "accounting"
+    },
+    {
+      "id": 10,
+      "name": "Kelly Kapoor",
+      "email": "kelly.kapoor@gmail.com",
+      "phone": 786754367,
+      "designation": "saleslady",
+      "department": "sales"
+    },
+    {
+      "id": 11,
+      "name": "Dwight Shrute",
+      "email": "dwight.shrute@gmail.com",
+      "phone": 789632147,
+      "designation": "salesman",
+      "department": "sales"
+    },
+    {
+      "id": 12,
+      "name": "Jim Halpert",
+      "email": "jim.halpert@gmail.com",
+      "phone": 765432158,
+      "designation": "salesman",
+      "department": "sales"
+    },
+    {
+      "id": 13,
+      "name": "Bob Vance",
+      "email": "bob.vance@gmail.com",
+      "phone": 764578699,
+      "designation": "salesman ",
+      "department": "sales"
+    }
+  ],
+  "addProject": [
+    {
+      "id": 1,
+      "name": "Chat Application",
+      "description": "Website"
+    },
+    {
+      "id": 2,
+      "name": "ExpressWay",
+      "description": "Mobile Application"
+    },
+    {
+      "id": 3,
+      "name": "Employee Management System",
+      "description": "Website"
+    },
+    {
+      "id": 4,
+      "name": "Banking System",
+      "description": "Mobile Application"
+    },
+    {
+      "id": 5,
+      "name": "Farmers App",
+      "description": "Mobile Application"
+    },
+    {
+      "id": 6,
+      "name": "G4S",
+      "description": "web application"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

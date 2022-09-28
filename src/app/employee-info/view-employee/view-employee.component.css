@@ -1,0 +1,39 @@
+span small{
+    font-weight: bold;
+}
+
+#C {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 35px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: rgb(74, 153, 206);
+}
+
+
+#A{
+    position:static;
+      width: 300px;
+      height: 400px;
+      margin: 0 auto;
+      background: rgb(235, 230, 230);
+      box-shadow: 0 15px 60px rgba(151, 38, 38, 0.26);
+      box-sizing:content-box;
+      padding: 20px;
+}
+
+#B{
+    position:static;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgb(235, 230, 230);
+    box-shadow: 0 15px 60px rgba(151, 38, 38, 0.26);
+    float:right;
+    /* margin-top:20px; */
+    box-sizing: content-box;
+
+
+} 

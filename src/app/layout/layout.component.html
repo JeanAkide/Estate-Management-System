@@ -1,0 +1,90 @@
+<nz-layout class="app-layout">
+    <nz-sider class="menu-sidebar"
+              nzCollapsible
+              nzWidth="256px"
+              nzBreakpoint="md"
+              [(nzCollapsed)]="isCollapsed"
+              [nzTrigger]="null">
+      <div class="sidebar-logo">
+        <!-- <a href="https://ng.ant.design/" target="_blank"> -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi3gjBvxBFwkGtNT10HL5B4c4V-2UGoBui4w&usqp=CAU" alt="logo">
+          <h1>EMS</h1>
+          
+        <!-- </a> -->
+      </div>
+      <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+        <!-- <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard"> -->
+  
+  
+          <ul>
+            
+            <li nz-menu-item nzMatchRouter>
+                <a  [routerLink]="['/layout/dashboard']" class="button">Dashboard</a>
+            </li>
+
+
+            <li nz-menu-item nzMatchRouter>
+              <a [routerLink]="['/layout/projects']" class="button"></a>
+            </li>
+
+
+            <li nz-menu-item nzMatchRouter>
+              <a [routerLink]="['/layout/payment-info']" class="button">Payments</a>
+            </li>
+
+
+            
+        
+            <li nz-menu-item nzMatchRouter>
+              <!--Routing links-->
+              <!-- <a routerLink="Layout">Layout</a> -->
+              <!-- Button trigger modal -->
+            <a class="button" [routerLink]="['employee-info/emp-details']">Residents</a> 
+            </li>
+            
+           
+            <!-- <li nz-menu-item nzMatchRouter>
+            <a class="button">Suppliers</a>
+            </li>
+  
+            <li nz-menu-item nzMatchRouter>
+            <a class="button">Roles</a>
+            </li>
+
+            <li nz-menu-item nzMatchRouter>
+            <a class="button">Roles</a>
+            </li> -->
+
+
+  
+          </ul>
+  
+  
+     </ul>
+    </nz-sider>
+    <nz-layout>
+      <nz-header>
+        <div class="app-header">
+          <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
+              <i class="trigger"
+                 nz-icon
+                 [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+              ></i>
+          </span>
+          <span class="logout">
+            <h2 class="btn btn-primary" (click)="logout()">Logout</h2>
+          </span>
+        </div>
+      </nz-header>
+      <nz-content>
+        <div class="inner-content">
+  
+  
+  <router-outlet></router-outlet>
+  
+       
+        </div>
+      </nz-content>
+    </nz-layout>
+  </nz-layout>
+  

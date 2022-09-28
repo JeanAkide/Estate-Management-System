@@ -1,0 +1,17 @@
+.login-container{
+    display: flex;
+    max-height: fit-content;
+    width: 300px;
+    /* align-content: center; */
+    /* padding-top:10%; */
+    margin-top: 15%!important;
+    margin: 0px auto;
+    background: rgb(74, 165, 201);
+    /* position: fixed; */
+
+}
+
+
+body{
+    background-image: url();
+}
